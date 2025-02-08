@@ -1,0 +1,130 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0056b3; /* AfD-Blau */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero-Sektion */
+.hero {
+    background-color: #0056b3; /* AfD-Blau */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ffcc00; /* AfD-Gelb */
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #e6b800; /* Dunkleres Gelb */
+}
+
+/* Inhaltsblöcke */
+.content {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.content-block {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-block h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0056b3; /* AfD-Blau */
+}
+
+.content-block p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.content-block .btn {
+    background-color: #0056b3; /* AfD-Blau */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content-block .btn:hover {
+    background-color: #004080; /* Dunkleres Blau */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
